@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "African",
+    "value": "african"
+  },
+  {
+    "id": 2,
+    "name": "American",
+    "value": "american"
+  },
+  {
+    "id": 3,
+    "name": "British",
+    "value": "british"
+  },
+  {
+    "id": 4,
+    "name": "Cajun",
+    "value": "cajun"
+  },
+  {
+    "id": 5,
+    "name": "Caribbean",
+    "value": "caribbean"
+  },
+  {
+    "id": 6,
+    "name": "Chinese",
+    "value": "chinese"
+  },
+  {
+    "id": 7,
+    "name": "Eastern European",
+    "value": "eastern european"
+  },
+  {
+    "id": 8,
+    "name": "European",
+    "value": "european"
+  },
+  {
+    "id": 9,
+    "name": "French",
+    "value": "french"
+  },
+  {
+    "id": 10,
+    "name": "German",
+    "value": "german"
+  },
+  {
+    "id": 11,
+    "name": "Greek",
+    "value": "greek"
+  },
+  {
+    "id": 12,
+    "name": "Indian",
+    "value": "indian"
+  },
+  {
+    "id": 13,
+    "name": "Irish",
+    "value": "irish"
+  },
+  {
+    "id": 14,
+    "name": "Italian",
+    "value": "italian"
+  },
+  {
+    "id": 15,
+    "name": "Japanese",
+    "value": "japanese"
+  },
+  {
+    "id": 16,
+    "name": "Jewish",
+    "value": "jewish"
+  },
+  {
+    "id": 17,
+    "name": "Korean",
+    "value": "korean"
+  },
+  {
+    "id": 18,
+    "name": "Latin American",
+    "value": "latin american"
+  },
+  {
+    "id": 19,
+    "name": "Mediterranean",
+    "value": "mediterranean"
+  },
+  {
+    "id": 20,
+    "name": "Mexican",
+    "value": "mexican"
+  },
+  {
+    "id": 21,
+    "name": "Middle Eastern",
+    "value": "middle eastern"
+  },
+  {
+    "id": 22,
+    "name": "Nordic",
+    "value": "nordic"
+  },
+  {
+    "id": 23,
+    "name": "Southern",
+    "value": "southern"
+  },
+  {
+    "id": 24,
+    "name": "Spanish",
+    "value": "spanish"
+  },
+  {
+    "id": 25,
+    "name": "Thai",
+    "value": "thai"
+  },
+  {
+    "id": 26,
+    "name": "Vietnamese",
+    "value": "vietnamese"
+  }
+]
