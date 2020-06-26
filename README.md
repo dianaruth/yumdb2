@@ -1,3 +1,7 @@
+# YumDB
+
+## find your perfect meal without a trip to the grocery store
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

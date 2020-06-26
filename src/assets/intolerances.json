@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Dairy",
+    "value": "dairy"
+  },
+  {
+    "id": 2,
+    "name": "Egg",
+    "value": "egg"
+  },
+  {
+    "id": 3,
+    "name": "Gluten",
+    "value": "gluten"
+  },
+  {
+    "id": 4,
+    "name": "Grain",
+    "value": "grain"
+  },
+  {
+    "id": 5,
+    "name": "Peanut",
+    "value": "peanut"
+  },
+  {
+    "id": 6,
+    "name": "Seafood",
+    "value": "seafood"
+  },
+  {
+    "id": 7,
+    "name": "Sesame",
+    "value": "sesame"
+  },
+  {
+    "id": 8,
+    "name": "Shellfish",
+    "value": "shellfish"
+  },
+  {
+    "id": 9,
+    "name": "Soy",
+    "value": "soy"
+  },
+  {
+    "id": 10,
+    "name": "Sulfite",
+    "value": "sulfite"
+  },
+  {
+    "id": 11,
+    "name": "Tree Nut",
+    "value": "tree nut"
+  },
+  {
+    "id": 12,
+    "name": "Wheat",
+    "value": "wheat"
+  }
+]
