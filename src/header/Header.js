@@ -32,8 +32,8 @@ const Header = () => {
   };
 
   return (
-    <HeaderWrapper isMobile={size.width < theme.breakpoints.values.sm}>
-      {size.width < theme.breakpoints.values.sm ? (
+    <HeaderWrapper isMobile={size.width < theme.breakpoints.values.md}>
+      {size.width < theme.breakpoints.values.md ? (
         <>
           <HamburgerMenu onClick={toggleDrawer()}>
             <MenuIcon />

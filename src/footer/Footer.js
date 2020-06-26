@@ -26,10 +26,10 @@ const Footer = () => {
           </>
         ) : null
       }
-      <IconButton>
+      <IconButton href="https://www.linkedin.com/in/diana-ruth-baba3981/">
         <LinkedInIcon />
       </IconButton>
-      <IconButton>
+      <IconButton href="https://github.com/dianaruth">
         <GitHubIcon />
       </IconButton>
     </FooterWrapper>
