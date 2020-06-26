@@ -13,7 +13,9 @@ import {
 import { withStyles, useTheme } from '@material-ui/core/styles';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import MenuIcon from '@material-ui/icons/Menu';
-import MailIcon from '@material-ui/icons/Mail';
+import HomeIcon from '@material-ui/icons/Home';
+import FastfoodIcon from '@material-ui/icons/Fastfood';
+import RestaurantMenuIcon from '@material-ui/icons/RestaurantMenu';
 import useWindowSize from '../hooks/useWindowSize';
 
 const Header = () => {
@@ -39,12 +41,20 @@ const Header = () => {
           <Drawer anchor="top" open={open} onClose={toggleDrawer()}>
             <List>
               <ListItem button key="home" component={(props) => <Link to="/" {...props} />}>
-                <ListItemIcon><MailIcon /></ListItemIcon>
+                <ListItemIcon><HomeIcon /></ListItemIcon>
                 <ListItemText primary="Home" />
               </ListItem>
               <ListItem button key="recipeSearch" component={(props) => <Link to="/recipe-search" {...props} />}>
                 <ListItemIcon><RestaurantIcon /></ListItemIcon>
                 <ListItemText primary="Recipe Search" />
+              </ListItem>
+              <ListItem button key="recipeSearchByIngredients" component={(props) => <Link to="/recipe-search-by-ingredients" {...props} />}>
+                <ListItemIcon><FastfoodIcon /></ListItemIcon>
+                <ListItemText primary="Recipe Search By Ingredients" />
+              </ListItem>
+              <ListItem button key="recipeSearchComplex" component={(props) => <Link to="/recipe-search-complex" {...props} />}>
+                <ListItemIcon><RestaurantMenuIcon /></ListItemIcon>
+                <ListItemText primary="Complex Recipe Search" />
               </ListItem>
             </List>
           </Drawer>
