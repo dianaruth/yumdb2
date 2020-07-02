@@ -2,6 +2,8 @@
 
 ## find your perfect meal without a trip to the grocery store
 
+You can find the live site [here](https://yumdb-1efa1.web.app).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

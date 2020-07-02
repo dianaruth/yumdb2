@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import axios from 'axios';
+import { useLocation } from 'react-router-dom';
 import {
   Container,
   Grid,
@@ -17,6 +18,7 @@ import RecipeSearchByIngredients from './RecipeSearchByIngredients';
 import ComplexRecipeSearch from './ComplexRecipeSearch';
 
 const RecipeSearch = ({ type }) => {
+  const location = useLocation();
   const [showResults, setShowResults] = useState(false);
   const [resultsLoading, setResultsLoading] = useState(false);
   const [recipeResults, setRecipeResults] = useState({});
@@ -94,12 +96,12 @@ const RecipeSearch = ({ type }) => {
 
   const changePage = (newPage) => {
     setPage(newPage);
-    searchFunctionsMap[type](resultsPerPage, (newPage - 1) * resultsPerPage);
+    searchFunctionsMap[location.pathname](resultsPerPage, (newPage - 1) * resultsPerPage);
   };
 
   const changeResultsPerPage = (newResultsPerPage) => {
     setResultsPerPage(newResultsPerPage);
-    searchFunctionsMap[type](newResultsPerPage, 0);
+    searchFunctionsMap[location.pathname](newResultsPerPage, 0);
   };
 
   const backToSearch = () => {
